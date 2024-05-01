@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap");
+* {
+	font-family: "Jost", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+}
+
+a:hover {
+	color: #ffc107 !important;
+}
+
+a i:hover {
+	color: #ffc107 !important;
+	transform: rotateY(180deg);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	filter: invert(100%);
+}
