@@ -8,7 +8,6 @@ from keras.preprocessing import image
 
 app = Flask(__name__)
 
-# Load your trained LRCN model
 model = load_model("Suspicious_Human_Activity_Detection_LRCN_Model.h5")
 
 @app.route('/')
